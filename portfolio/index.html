@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/696925dd55.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ <div id="header" >
+    <div class="container" >
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact me </a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text" align="right">
+            <h1>RIYA GUPTA</h1>
+            <p> WEB DEVELOPER, CONTENT WRITER,DESIGNER</p>
+            <h2>Hiii!!! I am <span>Riya</span> from INDIA</h2>
+        </div>
+
+    </div>
+ </div>
+ <!--------about-------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="588.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">ABOUT ME</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Dicta eveniet magnam odit quidem ratione repellat ea deserunt
+                    praesentium recusandae, nam consectetur, quam optio veniam maxime 
+                    provident a nulla rem voluptates? Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Cumque sed quisquam, quasi laboriosam voluptas nostrum 
+                    amet molestiae a ipsum ad est voluptate exercitationem officia laborum 
+                    minima quis adipisci consectetur ipsa!
+                </p>
+                <div class="tab-tittle">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('achievments')">Achievments</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li> <span>UI/UX</span><br>Designing Web/App interface</li>
+                        <li> <span>Web Development</span><br>Web App Development</li>
+                        <li> <span>App Development</span><br>buildind android/IOS apps</li>
+
+        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="achievments">
+                    <ul>
+                        <li> <span>10th marks</span><br>97%</li>
+                        <li> <span>12th marks</span><br>96.4%</li>
+                        <li> <span>graduation result</span><br>91.4%</li>
+                        <li> <span>NPTEL certification</span><br>73%</li>
+
+        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li> <span>2018</span><br>secondary school from hapur</li>
+                        <li> <span>2020</span><br>senior secondary school from hapur</li>
+                        <li> <span>2020</span><br>btech from galgotia noida</li>
+
+        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!----services-->
+ <div id="services"> 
+    <div class="container">
+
+        <h1 class="sub-tittle">MY SERVICES</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Culpa perferendis vero iure voluptatem labore mollitia 
+                assumenda? Maxime iure, minima ratione illum quae dolorum
+             quisquam nihil architecto. Eos est exercitationem tempore.</p>
+               <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Culpa perferendis vero iure voluptatem labore mollitia assumenda? Maxime iure, 
+                 minima ratione illum quae dolorum quisquam nihil architecto. Eos est exercitationem tempore.</p>
+               <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis vero iure voluptatem
+               labore mollitia assumenda? Maxime iure, minima ratione illum quae dolorum quisquam nihil architecto. Eos est exercitationem tempore.</p>
+               <a href="#">Learn more</a>
+        </div>
+    </div>
+
+    </div>
+ </div>
+ <!--portfolio-->
+ <div id="portfolio">
+   <div class="container">
+    <h1 class="sub-tittle">MY WORK</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="work2.jpeg">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>App connect you to the talented people around the world
+                    Download it from playstore
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work3.jpeg">
+            <div class="layer">
+                <h3>Trading App</h3>
+                <p>App connect you to be the great bussiness man people around the world
+                    Download it from playstore
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="work4.jpeg">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>App helps you to remove the toxicity of the world
+                    Download it from playstore
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+
+   </div>
+
+
+
+ </div>
+ <!--------contact------------>
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>r9gupta10@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>6397678781</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="my cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+
+            </form>
+           
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright issues<i class="fa-sharp fa-solid fa-copyright"></i></p>
+    </div>
+ </div>
+
+
+ <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+ <script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+ <form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyokTw6EpIqH63M8c_EgNFugfnGZxt3ch-NZtqsdUVioNaPM7x3tUGKZlMGW2Xwav9D/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
